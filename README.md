@@ -1,31 +1,22 @@
 IT326 Data Mining Project — Phase 1 (Data Selection)
 
-Project Goal:
-Apply data mining techniques — classification and clustering — on the Mushroom dataset to distinguish edible vs. poisonous mushrooms and explore meaningful groupings.
+Concise Project Description (Introducing the Problem):
+Consuming poisonous mushrooms is dangerous and can be life-threatening. 
+The project addresses the problem of identifying whether a mushroom is edible or poisonous 
+based on its features. This classification helps reduce risks to human health.
 
-Motivation:
-We chose this dataset because it is large (8,000+ instances), has 20+ categorical features, and includes a clear class label (class: edible vs. poisonous). It is widely used for benchmarking classification tasks and is suitable for clustering exploration.
+Objectives (What do we want to solve?):
+- Classify mushrooms into edible vs. poisonous using their categorical features.
+- Apply clustering methods to group mushrooms with similar characteristics.
 
-Dataset Source:
-Name: Mushroom Classification (UCI / Kaggle)
-URL: https://www.kaggle.com/datasets/uciml/mushroom-classification
-Format: CSV
+Project Motivation (Why is it important?):
+We chose this dataset because it is large (over 8,000 instances), 
+has more than 20 categorical features, and includes a clear class label. 
+It is widely used in machine learning education and research, 
+making it suitable for practicing classification and clustering tasks.
 
-Team Members:
+Students' Names:
 - Haifa Bin Salmah
 - Aliyah Alharbi
 - Lama Alghamdi
 - Rana Almutairi
-
-Related Research:
-Title: The classification of mushroom using ML
-Journal: Kafrelsheikh Journal of Information Sciences, 2023
-Summary: The paper compares several ML models (Random Forest, Decision Tree, Logistic Regression, MLP) for mushroom classification and reports high accuracy (≈ 98.7%). This supports our dataset choice.
-
-Repository Structure:
-Dataset/
-  Raw_dataset.csv
-  ResearchPaper.pdf
-Reports/
-  Phase1.ipynb
-README.md
